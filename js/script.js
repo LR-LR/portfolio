@@ -4,7 +4,7 @@ $(document).ready(function() {
     pauseOnHover: true,
     loop: true,
     controls: false,
-
+    
     responsive: [
       {
         breakpoint: 769,
