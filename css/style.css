@@ -51,9 +51,15 @@ header {
 
 /* NAVBAR */
 nav {
+<<<<<<< HEAD
+  background: -moz-linear-gradient(top, #000000 0%, rgba(1, 1, 1, 0) 100%);
+  background: -webkit-linear-gradient(top, #000000 0%, rgba(1, 1, 1, 0) 100%);
+  background: linear-gradient(to bottom, #000000 0%, rgba(1, 1, 1, 0) 100%);
+=======
   background: -moz-linear-gradient(top, #000000 0%, rgba(1,1,1,0) 100%);
   background: -webkit-linear-gradient(top, #000000 0%, rgba(1,1,1,0) 100%);
   background: linear-gradient(to bottom, #000000 0%, rgba(1,1,1,0) 100%);
+>>>>>>> d9961d641d913d011290d392fc498d4673b0726f
 }
 
 .navbar-dark .navbar-nav .nav-link {
