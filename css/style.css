@@ -1,129 +1,19 @@
-/* RESET */
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  font-family: 'Roboto';
-  background-color: #efefef;
+    font-family: 'Lato';
 }
 
-button:focus {
-  outline-color: #007bff;
+#ABOUT {
+    padding-bottom: 250px;
 }
 
-a:hover,
-.btn-link:hover,
-.btn-link:focus {
-  text-decoration: none;
+#ABOUT > div {
+    width: 60%;
 }
 
-.material-icons {
-  font-size: 19px;
-  padding: 0;
-  margin: 0;
+#SKILLS {
+    margin-top: -13rem;
 }
 
-.mt-plus {
-  margin-top: 70px;
-}
-
-.shadow-sm:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23) !important;
-}
-
-.card {
-  border-radius: 2px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.card:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-/* HEADER */
-header {
-  height: 515px;
-  background-image: url('../img/header-bg.jpeg');
-  background-position: center;
-  background-attachment: local;
-  background-repeat: no-repeat;
-}
-
-/* NAVBAR */
-nav {
-  background: -moz-linear-gradient(top, #000000 0%, rgba(1, 1, 1, 0) 100%);
-  background: -webkit-linear-gradient(top, #000000 0%, rgba(1, 1, 1, 0) 100%);
-  background: linear-gradient(to bottom, #000000 0%, rgba(1, 1, 1, 0) 100%);
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #007bff;
-}
-
-/* MAIN */
-main {
-  margin-top: -300px;
-}
-
-/* ABOUT */
-#about {
-  width: 95%;
-}
-
-#about-profile {
-  height: 95%;
-}
-
-#about-profile div h1 span {
-  font-size: 1.2rem;
-}
-
-#social a {
-  width: 55px;
-  height: 55px;
-  display: inline-block;
-  border-radius: 50%;
-}
-
-#social a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-#social a i {
-  font-size: 35px;
-  line-height: 55px;
-}
-
-/* Resume */
-#download-resume:hover {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-}
-
-/* Skills */
-#skills ul li {
-  height: 100%;
-}
-
-#skills ul li .card {
-  height: 100%;
-}
-
-#lightSlider {
-  background-color: inherit;
-}
-
-/* PORTFOLIO */
-#portfolio .card img {
-  width: 100%;
-}
-
-/* EXPERIENCE */
-#experience ul {
-  list-style-type: circle;
+#SKILLS i.fas {
+    font-size: 50px;
 }
