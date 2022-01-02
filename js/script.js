@@ -1,23 +1,3 @@
-$(document).ready(function() {
-  $("#lightSlider").lightSlider({
-    auto: true,
-    pauseOnHover: true,
-    loop: true,
-    controls: false,
-    
-    responsive: [
-      {
-        breakpoint: 769,
-        settings: {
-          item: 2,
-        }
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          item: 1,
-        }
-      },
-    ],
-  });
-});
+currentYear = document.getElementById('currentYear');
+currentYearValue = new Date().getFullYear();
+currentYear.innerHTML = currentYearValue;

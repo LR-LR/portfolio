@@ -1,5 +1,9 @@
-@media (max-width: 991.98px) {
-  #skills ul li .card .card-header h3 {
-    font-size: 1.2rem;
-  }
+@media (max-width: 767.98px) {
+    #SKILLS .card:first-of-type {
+        border-radius: 12px 0 0 12px;
+    }
+
+    #SKILLS .card:last-of-type {
+        border-radius: 0 12px 12px 0;
+    }
 }
