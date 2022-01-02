@@ -3,14 +3,10 @@ body {
 }
 
 #ABOUT {
-    /* background-image: url('../img/wave.svg');
-    background-repeat: no-repeat; */
     padding-bottom: 250px;
 }
 
 #SKILLS {
-    /* background-image: url('../img/wave2.svg');
-    background-repeat: no-repeat; */
 }
 
 #SKILLS .card-group {

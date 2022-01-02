@@ -6,4 +6,9 @@
     #SKILLS .card:last-of-type {
         border-radius: 0 12px 12px 0;
     }
+
+    footer .social-icons p a {
+        height: 30px;
+        padding: 5px;
+    }
 }
