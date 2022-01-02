@@ -3,17 +3,67 @@ body {
 }
 
 #ABOUT {
+    /* background-image: url('../img/wave.svg');
+    background-repeat: no-repeat; */
     padding-bottom: 250px;
 }
 
-#ABOUT > div {
-    width: 60%;
-}
-
 #SKILLS {
-    margin-top: -13rem;
+    /* background-image: url('../img/wave2.svg');
+    background-repeat: no-repeat; */
 }
 
-#SKILLS i.fas {
+#SKILLS .card-group {
+    margin-top: -13rem;
+    border-radius: 2rem;
+}
+
+#SKILLS .card-group > .card {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#SKILLS .card:first-of-type {
+    border-radius: 12px 0 0 12px;
+}
+
+#SKILLS .card:last-of-type {
+    border-radius: 0 12px 12px 0;
+}
+
+#SKILLS i.fas,
+#SKILLS i.fab {
     font-size: 50px;
+}
+
+footer .social-icons p a {
+    height: 50px;
+    padding: 5px;
+}
+
+footer .social-icons p a:hover {
+    border: 1px solid white;
+}
+
+footer .social-icons p a img {
+    height: 80%;
+}
+
+.bg-primary {
+    background-color: #1158c2 !important;
+}
+
+.text-primary {
+    color: #1158c2 !important;
+}
+
+.btn-outline-primary {
+    color: #1158c2 !important;
+    border-color: #1158c2 !important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    border-color: #1158c2 !important;
+    background-color: rgba(255, 255, 255, 0.1);
 }
